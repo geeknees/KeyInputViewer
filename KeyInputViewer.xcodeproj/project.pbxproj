@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E4B880C275670EA0025A96F /* KeyInputViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B880B275670EA0025A96F /* KeyInputViewerApp.swift */; };
+		9E4B880E275670EA0025A96F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B880D275670EA0025A96F /* ContentView.swift */; };
+		9E4B8810275670EC0025A96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4B880F275670EC0025A96F /* Assets.xcassets */; };
+		9E4B8813275670EC0025A96F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4B8812275670EC0025A96F /* Preview Assets.xcassets */; };
+		9E4B881D275670EC0025A96F /* KeyInputViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B881C275670EC0025A96F /* KeyInputViewerTests.swift */; };
+		9E4B8827275670EC0025A96F /* KeyInputViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B8826275670EC0025A96F /* KeyInputViewerUITests.swift */; };
+		9E4B8829275670EC0025A96F /* KeyInputViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B8828275670EC0025A96F /* KeyInputViewerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E4B8819275670EC0025A96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E4B8800275670EA0025A96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E4B8807275670EA0025A96F;
+			remoteInfo = KeyInputViewer;
+		};
+		9E4B8823275670EC0025A96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E4B8800275670EA0025A96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E4B8807275670EA0025A96F;
+			remoteInfo = KeyInputViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E4B8808275670EA0025A96F /* KeyInputViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyInputViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E4B880B275670EA0025A96F /* KeyInputViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInputViewerApp.swift; sourceTree = "<group>"; };
+		9E4B880D275670EA0025A96F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E4B880F275670EC0025A96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E4B8812275670EC0025A96F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E4B8818275670EC0025A96F /* KeyInputViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyInputViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E4B881C275670EC0025A96F /* KeyInputViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInputViewerTests.swift; sourceTree = "<group>"; };
+		9E4B8822275670EC0025A96F /* KeyInputViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyInputViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E4B8826275670EC0025A96F /* KeyInputViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInputViewerUITests.swift; sourceTree = "<group>"; };
+		9E4B8828275670EC0025A96F /* KeyInputViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInputViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E4B8805275670EA0025A96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4B8815275670EC0025A96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4B881F275670EC0025A96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E4B87FF275670EA0025A96F = {
+			isa = PBXGroup;
+			children = (
+				9E4B880A275670EA0025A96F /* KeyInputViewer */,
+				9E4B881B275670EC0025A96F /* KeyInputViewerTests */,
+				9E4B8825275670EC0025A96F /* KeyInputViewerUITests */,
+				9E4B8809275670EA0025A96F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E4B8809275670EA0025A96F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E4B8808275670EA0025A96F /* KeyInputViewer.app */,
+				9E4B8818275670EC0025A96F /* KeyInputViewerTests.xctest */,
+				9E4B8822275670EC0025A96F /* KeyInputViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E4B880A275670EA0025A96F /* KeyInputViewer */ = {
+			isa = PBXGroup;
+			children = (
+				9E4B880B275670EA0025A96F /* KeyInputViewerApp.swift */,
+				9E4B880D275670EA0025A96F /* ContentView.swift */,
+				9E4B880F275670EC0025A96F /* Assets.xcassets */,
+				9E4B8811275670EC0025A96F /* Preview Content */,
+			);
+			path = KeyInputViewer;
+			sourceTree = "<group>";
+		};
+		9E4B8811275670EC0025A96F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E4B8812275670EC0025A96F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E4B881B275670EC0025A96F /* KeyInputViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E4B881C275670EC0025A96F /* KeyInputViewerTests.swift */,
+			);
+			path = KeyInputViewerTests;
+			sourceTree = "<group>";
+		};
+		9E4B8825275670EC0025A96F /* KeyInputViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E4B8826275670EC0025A96F /* KeyInputViewerUITests.swift */,
+				9E4B8828275670EC0025A96F /* KeyInputViewerUITestsLaunchTests.swift */,
+			);
+			path = KeyInputViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E4B8807275670EA0025A96F /* KeyInputViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E4B882C275670EC0025A96F /* Build configuration list for PBXNativeTarget "KeyInputViewer" */;
+			buildPhases = (
+				9E4B8804275670EA0025A96F /* Sources */,
+				9E4B8805275670EA0025A96F /* Frameworks */,
+				9E4B8806275670EA0025A96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyInputViewer;
+			productName = KeyInputViewer;
+			productReference = 9E4B8808275670EA0025A96F /* KeyInputViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E4B8817275670EC0025A96F /* KeyInputViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E4B882F275670EC0025A96F /* Build configuration list for PBXNativeTarget "KeyInputViewerTests" */;
+			buildPhases = (
+				9E4B8814275670EC0025A96F /* Sources */,
+				9E4B8815275670EC0025A96F /* Frameworks */,
+				9E4B8816275670EC0025A96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E4B881A275670EC0025A96F /* PBXTargetDependency */,
+			);
+			name = KeyInputViewerTests;
+			productName = KeyInputViewerTests;
+			productReference = 9E4B8818275670EC0025A96F /* KeyInputViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E4B8821275670EC0025A96F /* KeyInputViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E4B8832275670EC0025A96F /* Build configuration list for PBXNativeTarget "KeyInputViewerUITests" */;
+			buildPhases = (
+				9E4B881E275670EC0025A96F /* Sources */,
+				9E4B881F275670EC0025A96F /* Frameworks */,
+				9E4B8820275670EC0025A96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E4B8824275670EC0025A96F /* PBXTargetDependency */,
+			);
+			name = KeyInputViewerUITests;
+			productName = KeyInputViewerUITests;
+			productReference = 9E4B8822275670EC0025A96F /* KeyInputViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E4B8800275670EA0025A96F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					9E4B8807275670EA0025A96F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					9E4B8817275670EC0025A96F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 9E4B8807275670EA0025A96F;
+					};
+					9E4B8821275670EC0025A96F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 9E4B8807275670EA0025A96F;
+					};
+				};
+			};
+			buildConfigurationList = 9E4B8803275670EA0025A96F /* Build configuration list for PBXProject "KeyInputViewer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E4B87FF275670EA0025A96F;
+			productRefGroup = 9E4B8809275670EA0025A96F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E4B8807275670EA0025A96F /* KeyInputViewer */,
+				9E4B8817275670EC0025A96F /* KeyInputViewerTests */,
+				9E4B8821275670EC0025A96F /* KeyInputViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E4B8806275670EA0025A96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4B8813275670EC0025A96F /* Preview Assets.xcassets in Resources */,
+				9E4B8810275670EC0025A96F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4B8816275670EC0025A96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4B8820275670EC0025A96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E4B8804275670EA0025A96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4B880E275670EA0025A96F /* ContentView.swift in Sources */,
+				9E4B880C275670EA0025A96F /* KeyInputViewerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4B8814275670EC0025A96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4B881D275670EC0025A96F /* KeyInputViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E4B881E275670EC0025A96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4B8827275670EC0025A96F /* KeyInputViewerUITests.swift in Sources */,
+				9E4B8829275670EC0025A96F /* KeyInputViewerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E4B881A275670EC0025A96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E4B8807275670EA0025A96F /* KeyInputViewer */;
+			targetProxy = 9E4B8819275670EC0025A96F /* PBXContainerItemProxy */;
+		};
+		9E4B8824275670EC0025A96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E4B8807275670EA0025A96F /* KeyInputViewer */;
+			targetProxy = 9E4B8823275670EC0025A96F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9E4B882A275670EC0025A96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E4B882B275670EC0025A96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E4B882D275670EC0025A96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyInputViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = VM5T4F3EH7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nendworks.KeyInputViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E4B882E275670EC0025A96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyInputViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = VM5T4F3EH7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nendworks.KeyInputViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E4B8830275670EC0025A96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VM5T4F3EH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nendworks.KeyInputViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyInputViewer.app/KeyInputViewer";
+			};
+			name = Debug;
+		};
+		9E4B8831275670EC0025A96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VM5T4F3EH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nendworks.KeyInputViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyInputViewer.app/KeyInputViewer";
+			};
+			name = Release;
+		};
+		9E4B8833275670EC0025A96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VM5T4F3EH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nendworks.KeyInputViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyInputViewer;
+			};
+			name = Debug;
+		};
+		9E4B8834275670EC0025A96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VM5T4F3EH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nendworks.KeyInputViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyInputViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E4B8803275670EA0025A96F /* Build configuration list for PBXProject "KeyInputViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E4B882A275670EC0025A96F /* Debug */,
+				9E4B882B275670EC0025A96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E4B882C275670EC0025A96F /* Build configuration list for PBXNativeTarget "KeyInputViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E4B882D275670EC0025A96F /* Debug */,
+				9E4B882E275670EC0025A96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E4B882F275670EC0025A96F /* Build configuration list for PBXNativeTarget "KeyInputViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E4B8830275670EC0025A96F /* Debug */,
+				9E4B8831275670EC0025A96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E4B8832275670EC0025A96F /* Build configuration list for PBXNativeTarget "KeyInputViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E4B8833275670EC0025A96F /* Debug */,
+				9E4B8834275670EC0025A96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E4B8800275670EA0025A96F /* Project object */;
+}
