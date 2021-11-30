@@ -14,6 +14,8 @@
 		9E4B881D275670EC0025A96F /* KeyInputViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B881C275670EC0025A96F /* KeyInputViewerTests.swift */; };
 		9E4B8827275670EC0025A96F /* KeyInputViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B8826275670EC0025A96F /* KeyInputViewerUITests.swift */; };
 		9E4B8829275670EC0025A96F /* KeyInputViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B8828275670EC0025A96F /* KeyInputViewerUITestsLaunchTests.swift */; };
+		9E4B8836275671B90025A96F /* KeyFetcherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B8835275671B90025A96F /* KeyFetcherViewModel.swift */; };
+		9E4B883A275672010025A96F /* KeyStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B8839275672010025A96F /* KeyStatusModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		9E4B8822275670EC0025A96F /* KeyInputViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyInputViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E4B8826275670EC0025A96F /* KeyInputViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInputViewerUITests.swift; sourceTree = "<group>"; };
 		9E4B8828275670EC0025A96F /* KeyInputViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyInputViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9E4B8835275671B90025A96F /* KeyFetcherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFetcherViewModel.swift; sourceTree = "<group>"; };
+		9E4B8839275672010025A96F /* KeyStatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStatusModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				9E4B880B275670EA0025A96F /* KeyInputViewerApp.swift */,
+				9E4B8835275671B90025A96F /* KeyFetcherViewModel.swift */,
+				9E4B8839275672010025A96F /* KeyStatusModel.swift */,
 				9E4B880D275670EA0025A96F /* ContentView.swift */,
 				9E4B880F275670EC0025A96F /* Assets.xcassets */,
 				9E4B8811275670EC0025A96F /* Preview Content */,
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E4B880E275670EA0025A96F /* ContentView.swift in Sources */,
+				9E4B883A275672010025A96F /* KeyStatusModel.swift in Sources */,
 				9E4B880C275670EA0025A96F /* KeyInputViewerApp.swift in Sources */,
+				9E4B8836275671B90025A96F /* KeyFetcherViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
